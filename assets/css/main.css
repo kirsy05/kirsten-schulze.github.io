@@ -637,13 +637,6 @@ input, select, textarea {
 
 /* Image */
 
-	.profile-pic {
-	  width: 120px;        /* adjust size as needed */
-	  height: 120px;
-	  border-radius: 50%;  /* makes it circular */
-	  object-fit: cover;   /* ensures it fills the circle without distortion */
-	  border: 3px solid #fff; /* optional border */
-	}
 
 	.image {
 		border-radius: 4px;
@@ -1667,3 +1660,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+/* Profile picture in header */
+.profile-pic {
+  width: 120px;        /* adjust size as needed */
+  height: 120px;
+  border-radius: 50%;  /* makes it circular */
+  object-fit: cover;   /* ensures it fills the circle without distortion */
+  border: 3px solid #fff; /* optional border */
+}
